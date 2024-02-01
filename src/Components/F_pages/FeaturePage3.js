@@ -1,10 +1,8 @@
-// src/components/Page.js
-
 import React from "react";
-import Image from "../Components/Images/Image.png";
+import Image from "../Images/Page3.svg";
 import { CssBaseline, Box, Typography, Stack } from "@mui/material";
 
-const Page = () => {
+const FeaturePage3 = () => {
   return (
     <div>
       <CssBaseline />
@@ -20,7 +18,7 @@ const Page = () => {
       >
         <Box
           style={{
-            width: "861px",
+            width: "761px",
 
             height: "550px",
             top: "177px",
@@ -41,33 +39,22 @@ const Page = () => {
               fontSize="35px"
               lineHeight="42px"
               fontFamily="'Nunito Sans', sans-serif"
-              width="555px"
+              width="615px"
             >
-              Explore and visualize diverse data effortlessly
+              Custom dashboards, alerts, and notifications for effective
+              monitoring
             </Typography>
-            <Stack>
-              <Typography
-                fontWeight="400"
-                fontSize="15px"
-                fontFamily="'Nunito Sans', sans-serif"
-                color="#797979"
-                width="450px"
-              >
-                Datainsights allows users to easily connect to various data
-                sources.
-              </Typography>
-              <Typography
-                fontWeight="400"
-                fontSize="15px"
-                color="#797979"
-                width="450px"
-                fontFamily="'Nunito Sans', sans-serif"
-              >
-                The platform provides a user-friendly interface for data
-                exploration, enabling users to navigate and analyze their data
-                with ease, regardless of its format or source.
-              </Typography>
-            </Stack>
+
+            <Typography
+              fontWeight="400"
+              fontSize="15px"
+              fontFamily="'Nunito Sans', sans-serif"
+              color="#797979"
+              width="450px"
+            >
+              DataInsights lets you make personalized dashboards that show your
+              data visually, helping you track your business in real-time.{" "}
+            </Typography>
             <Typography
               fontWeight="400"
               fontSize="15px"
@@ -75,19 +62,18 @@ const Page = () => {
               width="450px"
               fontFamily="'Nunito Sans', sans-serif"
             >
-              It offers a range of visualization tools, including charts,
-              tables, and maps, to help users understand their data and identify
-              trends, patterns, and insights.
+              Set up alerts for specific data conditions and get notified. Stay
+              on top of your data, spot potential issues, and act proactively. 
             </Typography>
           </Stack>
         </Box>
         <img
           src={Image}
           style={{
-            width: "623px",
-            height: "351px",
-            left: "669px",
-            top: "277px",
+            width: "589px",
+            height: "430px",
+            left: "737px",
+            top: "247px",
             position: "absolute",
             zIndex: 2,
           }}
@@ -99,6 +85,7 @@ const Page = () => {
             height: "550px",
             background: "#BE3788",
             left: "1100px",
+
             top: "177px",
 
             borderRadius: "50px 0px 0px 50px",
@@ -111,4 +98,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default FeaturePage3;

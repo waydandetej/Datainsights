@@ -1,10 +1,8 @@
-// src/components/Page.js
-
 import React from "react";
-import Image from "../Components/Images/Image.png";
+import Image from "../Images/Page2.svg";
 import { CssBaseline, Box, Typography, Stack } from "@mui/material";
 
-const Page = () => {
+const FeaturePage2 = () => {
   return (
     <div>
       <CssBaseline />
@@ -20,7 +18,7 @@ const Page = () => {
       >
         <Box
           style={{
-            width: "861px",
+            width: "807px",
 
             height: "550px",
             top: "177px",
@@ -43,31 +41,19 @@ const Page = () => {
               fontFamily="'Nunito Sans', sans-serif"
               width="555px"
             >
-              Explore and visualize diverse data effortlessly
+              Built-in SQL editor for easy query creation and debugging
             </Typography>
-            <Stack>
-              <Typography
-                fontWeight="400"
-                fontSize="15px"
-                fontFamily="'Nunito Sans', sans-serif"
-                color="#797979"
-                width="450px"
-              >
-                Datainsights allows users to easily connect to various data
-                sources.
-              </Typography>
-              <Typography
-                fontWeight="400"
-                fontSize="15px"
-                color="#797979"
-                width="450px"
-                fontFamily="'Nunito Sans', sans-serif"
-              >
-                The platform provides a user-friendly interface for data
-                exploration, enabling users to navigate and analyze their data
-                with ease, regardless of its format or source.
-              </Typography>
-            </Stack>
+
+            <Typography
+              fontWeight="400"
+              fontSize="15px"
+              fontFamily="'Nunito Sans', sans-serif"
+              color="#797979"
+              width="450px"
+            >
+              DataInsights comes with a handy SQL editor, making it a breeze to
+              create, edit, and fix SQL queries.
+            </Typography>
             <Typography
               fontWeight="400"
               fontSize="15px"
@@ -75,9 +61,19 @@ const Page = () => {
               width="450px"
               fontFamily="'Nunito Sans', sans-serif"
             >
-              It offers a range of visualization tools, including charts,
-              tables, and maps, to help users understand their data and identify
-              trends, patterns, and insights.
+              It highlights syntax, suggests code, and checks for errors,
+              simplifying the process.
+            </Typography>
+
+            <Typography
+              fontWeight="400"
+              fontSize="15px"
+              color="#797979"
+              width="450px"
+              fontFamily="'Nunito Sans', sans-serif"
+            >
+              Easily run on-the-fly queries, analyze data, and save them for
+              later use.
             </Typography>
           </Stack>
         </Box>
@@ -86,7 +82,7 @@ const Page = () => {
           style={{
             width: "623px",
             height: "351px",
-            left: "669px",
+            left: "710px",
             top: "277px",
             position: "absolute",
             zIndex: 2,
@@ -111,4 +107,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default FeaturePage2;

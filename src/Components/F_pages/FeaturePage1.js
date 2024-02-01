@@ -1,10 +1,10 @@
 // src/components/Page.js
 
 import React from "react";
-import Image from "../Components/Images/Image.png";
+import Image from "../Images/Page1.svg";
 import { CssBaseline, Box, Typography, Stack } from "@mui/material";
 
-const Page = () => {
+const FeaturePage1 = () => {
   return (
     <div>
       <CssBaseline />
@@ -15,12 +15,11 @@ const Page = () => {
           height: "900px",
 
           position: "relative",
-          marginLeft: "147px",
         }}
       >
         <Box
           style={{
-            width: "861px",
+            width: "761px",
 
             height: "550px",
             top: "177px",
@@ -98,7 +97,7 @@ const Page = () => {
             width: "300px",
             height: "550px",
             background: "#BE3788",
-            left: "1100px",
+            right: "0",
             top: "177px",
 
             borderRadius: "50px 0px 0px 50px",
@@ -111,4 +110,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default FeaturePage1;

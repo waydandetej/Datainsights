@@ -5,7 +5,7 @@ import FSection1data from "./FSection1data";
 const FeatureSection1 = () => {
   return (
     <>
-      <Stack>
+      <Stack marginTop="100px">
         <Stack
           alignItems="center"
           display="flex"
@@ -24,7 +24,7 @@ const FeatureSection1 = () => {
           </Typography>
           <Typography
             fontFamily="'Nunito Sans'"
-            width="748px"
+            width="891px"
             height="90px"
             fontWeight="500"
             lineHeight="25px"

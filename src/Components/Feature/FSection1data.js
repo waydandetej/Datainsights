@@ -88,11 +88,10 @@ function Featuresdata() {
     2: {
       img1: {
         width: "260px",
-        height: "202px",
+        height: "169px",
         flexShrink: 0,
-        zIndex: 1,
-        top: "28px",
-        left: "45px",
+        top: "50px",
+        left: "65px",
         position: "absolute",
       },
       img2: {
@@ -102,12 +101,11 @@ function Featuresdata() {
 
     3: {
       img1: {
-        width: "118px",
-        height: "90px",
+        width: "300px",
+        height: "195px",
         flexShrink: 0,
-        zIndex: 4,
         top: "56px",
-        left: "254px",
+        left: "27px",
       },
       img2: {
         display: "none",
