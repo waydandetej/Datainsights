@@ -39,7 +39,7 @@ const FeaturePage1 = () => {
               fontWeight="700"
               fontSize="35px"
               lineHeight="42px"
-              fontFamily="'Nunito Sans', sans-serif"
+              fontFamily="Nunito"
               width="555px"
             >
               Explore and visualize diverse data effortlessly

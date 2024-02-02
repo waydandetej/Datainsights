@@ -9,6 +9,8 @@ import FeatureSection1 from "./Components/Feature/FSection1";
 import FeaturePage1 from "./Components/F_pages/FeaturePage1";
 import FeaturePage2 from "./Components/F_pages/FeaturePage2";
 import FeaturePage3 from "./Components/F_pages/FeaturePage3";
+import WhySection2 from "./Components/Whyus/WhySection2";
+import WhyusSection1 from "./Components/Whyus/WhyusSection1";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
       <FeaturePage1 />
       <FeaturePage2 />
       <FeaturePage3 />
+      <WhyusSection1 />
+      <WhySection2 />
       {/* <Work /> */}
     </div>
   );
